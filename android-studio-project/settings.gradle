@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "roboboat2016_barunastra"
+include ':app'
+include ':opencv2'
+//def opencvsdk = '../OpenCV-android-sdk'
+//project(':opencv').projectDir = new File(opencvsdk + '/sdk')
+

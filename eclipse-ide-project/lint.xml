@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility" severity="ignore">
+        <ignore path="src/mbs/RVAllMission123/SeekBarVal12.java" />
+        <ignore path="src/mbs/RVmisi1dan2/SeekBarVal11.java" />
+        <ignore path="src/mbs/RVmisi1dan2/SeekBarVal12.java" />
+    </issue>
+</lint>

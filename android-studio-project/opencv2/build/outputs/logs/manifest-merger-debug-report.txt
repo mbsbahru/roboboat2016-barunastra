@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml:2:1-6:12
+	package
+		ADDED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml:3:7-27
+		INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+		INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml:5:7-34
+	xmlns:android
+		ADDED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml:4:7-33
+uses-sdk
+INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+		ADDED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+		INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+		ADDED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml
+		INJECTED from /Users/mbsbahru/Documents/GitHub/roboat2016-barunastra/android-studio-project/opencv2/java/AndroidManifest.xml

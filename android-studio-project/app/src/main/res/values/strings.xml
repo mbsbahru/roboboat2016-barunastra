@@ -1,0 +1,13 @@
+<resources>
+<string name="app_name">Roboboat2016 Barunastra</string>
+<string name="ket_device_terpasang">Devais terpasang</string>
+<string name="ket_device">Devais terpasang</string>
+<string name="textH">H</string>
+<string name="textS">S</string>
+<string name="textV">V</string>
+<string name="textED">ED</string>
+<string name="textHor">Hor</string>
+<string name="textExp">EW</string>
+<string name="textTiang">T</string>
+<string name="textMenu">::</string>
+</resources>

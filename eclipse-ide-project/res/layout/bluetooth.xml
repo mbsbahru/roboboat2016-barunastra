@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#607af6"
+        android:padding="12dp"
+        android:text="@string/ket_device_terpasang"
+        android:textColor="#f0f0f0"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/pairedDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="#f0f0f0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#607af6" android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            
+            android:text="@string/ket_device"
+            android:textColor="#f0f0f0"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" style="@android:style/Widget.ProgressBar.Small"  />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/availableDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="#f0f0f0"/>
+
+</LinearLayout>
+

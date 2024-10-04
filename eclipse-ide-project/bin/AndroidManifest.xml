@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="mbs.RVAllMission12345"
+          android:versionCode="1"
+          android:versionName="1.01">
+
+    <supports-screens
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true" />
+    
+    <uses-sdk 
+        android:minSdkVersion="15"/>
+       
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>    
+    <uses-permission android:name ="android.permission.CAMERA"/>
+    
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+            
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:name="SeekBarVal11" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="SeekBarVal12" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name="SeekBarVal21" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name="SeekBarVal22" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name="SeekBarVal23" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name="SeekBarVal24" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="SeekBarVal25" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="SeekBarVal31" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name="SeekBarVal32" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name="SeekBarVal33" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name="SeekBarVal34" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name="SeekBarVal41" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+		
+        <activity android:name="BluetoothConf" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="MainActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation" android:multiprocess="true"></activity>
+        
+    </application>    
+    
+    
+</manifest>
